@@ -2,26 +2,9 @@ body {
     background-color: light-orange;
 }
 
-h1 {
-    color: navy;
-    margin-left: 20px;
-}
-
-#page-wrap {
-    width: 600px;
-    margin: 15px auto;
-    position: relative;
-}
-
-#sidebar {
-    width: 190px;
-    position: fixed;
-    margin-left: 410px;
-}
-
-#sidenav {
+.sidenav {
     height: 100%;
-    width: 160px;
+    width: 140px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -31,7 +14,7 @@ h1 {
     padding-top: 20px;
 }
 
-#sidenav a {
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -39,6 +22,19 @@ h1 {
     display: block;
 }
 
-#sidenav a:hover {
+.sidenav a:hover {
     color:#f1f1f1;
+}
+
+.page-wrap {
+    margin-left: 140px;
+    padding: 0px 10px; 
+}
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+p {
+    text-align: justify;
 }
