@@ -13,6 +13,7 @@ div #BG {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: -1;
 }
 div #txt{
 
@@ -70,4 +71,41 @@ p {
 
 #txtbody {
     font-size: 18px;
+}
+
+#pudding-table {
+    font-family: 'Alegreya', serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#pudding-table a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+#pudding-table td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#pudding-table tr:nth-child(even) {
+    background-color: #f9e020;
+}
+
+#pudding-table tr:nth-child(odd) {
+    background-color: #f7f436
+}
+
+#pudding-table tr:hover {
+    background-color: #fedbb5
+}
+
+#pudding-table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ed9e02; 
+    color: white;
 }
