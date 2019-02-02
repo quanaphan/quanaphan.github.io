@@ -61,8 +61,39 @@ div #txt{
 
 h1 {
     color: navy;
+    font-size: 50px;
     margin-left: 20px;
     font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+    color: #ed9e02;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+ul {
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    vertical-align: center;
+}
+
+li {
+    vertical-align: center;
+    list-style: none;
+}
+
+li:before {
+    content: '';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url("https://cdn.emojidex.com/emoji/seal/custard.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-right: 10px;
+    padding-left: 0px;
 }
 
 p {
