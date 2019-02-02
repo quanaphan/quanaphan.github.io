@@ -1,8 +1,24 @@
 body {
-    background-color: light-orange;
 }
 
-.sidenav {
+#main {
+    position: relative;
+}
+
+div #BG {
+    background-image: url("https://cdn.emojidex.com/emoji/seal/custard.png");
+    position: fixed;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+div #txt{
+
+}
+
+#navbar {
     height: 100%;
     width: 140px;
     position: fixed;
@@ -10,11 +26,11 @@ body {
     top: 0;
     left: 0;
     background-color: #111;
-    overflow-x: hidden;
+    overflow: hidden;
     padding-top: 20px;
 }
 
-.sidenav a {
+#navbar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -22,23 +38,18 @@ body {
     display: block;
 }
 
-.sidenav a:hover:not(.active) {
+#navbar a:hover:not(.active) {
     color:#f1f1f1;
 }
 
-.sidenav a.active {
+#navbar a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-.logo {
-    display: inline-block;
-    width: 120px;
-    height: 30px;
-    background: url("https://ubistatic19-a.akamaihd.net/resource/en-ca/game/rainbow6/siege-v3/R6_agegate_logo.png") 0 0 no repeat;
-    background-size: contain;
-    margin-left: 10px;
-    margin-top: 5px;
+.pudding {
+    max-width: 100%;
+    height: auto;
 }
 
 .page-wrap {
@@ -49,8 +60,14 @@ body {
 h1 {
     color: navy;
     margin-left: 20px;
+    font-family: 'Dosis', sans-serif;
 }
 
 p {
     text-align: justify;
+    font-family: 'Alegreya', serif;
+}
+
+#txtbody {
+    font-size: 18px;
 }
