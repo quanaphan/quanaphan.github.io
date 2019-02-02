@@ -22,8 +22,13 @@ body {
     display: block;
 }
 
-.sidenav a:hover {
+.sidenav a:hover:not(.active) {
     color:#f1f1f1;
+}
+
+.sidenav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
 .page-wrap {
